@@ -1,0 +1,23 @@
+body{
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+#nav_links {
+  display: inherit;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+#home_heading {
+  text-align: center;
+}
+
+#form_wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
